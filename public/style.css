@@ -1,0 +1,77 @@
+*,h1,h3,h4 {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #282D35;
+}
+
+.navbar{
+    background: #21222A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    height: 90px;
+    padding: 30px 25px
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.nav-logo{
+    width: 30px;
+    object-fit: contain;
+    margin-right: 6px;
+}
+
+.nav-title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #61DAFB;
+    margin: 0;
+}
+
+.nav-right > h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #DEEBF8;
+    margin: 0;
+}
+
+.main{
+    background:url('./logo-large.png');
+    background-position: right 75%;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 57px 27px;
+}
+
+.reactfact-heading{
+    font-size: 39px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+.funfacts-list{
+    margin-top: 46px;
+}
+
+.funfacts-list > li{
+    color: white;
+    font-weight: 400px;
+    font-size: 16px;
+    padding-block: 10px;
+}
+
+.funfacts-list > li::marker{
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
+
